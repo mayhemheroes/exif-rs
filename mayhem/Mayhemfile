@@ -1,0 +1,6 @@
+project: exif-rs
+target: exif-fuzz
+
+cmds:
+    - cmd: ./exif-fuzz
+      libfuzzer: true
